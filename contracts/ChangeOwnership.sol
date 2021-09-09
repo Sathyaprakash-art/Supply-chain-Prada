@@ -1,7 +1,7 @@
 pragma solidity >=0.4.21 <0.6.0;
 
 //Add ProductManagement ABI to allow calls
-contract ProductManagement{
+contract ChangeOwnership{
     struct Part{
         address manufacturer;
         string serial_number;
